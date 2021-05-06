@@ -1,0 +1,275 @@
+/*Colors
+    Edsure Navy   #1c3c64;
+    Edsure Pastel Green   #cde5c0;
+    Edsure Green #74c344;
+*/
+
+/* Navbar */
+.navbar {
+  background-color: #cde5c0; /*Edsure Pastel Green */
+  padding: 1rem 8rem !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff !important;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #1c3c64;
+}
+
+#navbarSupportedContent > button {
+  background: #1c3c64; /*Edsure Navy */
+  color: #fff;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 40px;
+}
+
+#navbarSupportedContent > button:hover {
+  background: #fff;
+  color: #1c3c64;
+}
+
+/* Hero */
+.mid {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #cde5c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.mid .hero {
+  position: relative;
+  color: #1c3c64;
+}
+
+.mid .hero p {
+  width: 55%;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  padding-bottom: 1rem;
+}
+
+.mid .hero a {
+  background: #1c3c64;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mid .hero a:hover {
+  background: #fff;
+  color: #1c3c64;
+}
+
+/* Comprehensive Course Coverage */
+
+.about {
+}
+
+.about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.about .text h6 {
+  color: #74c344;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.about .text h2 {
+  color: #1c3c64;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p {
+  color: #1c3c64;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.about .text a {
+  background: #1c3c64;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.about .text a:hover {
+  background: #cde5c0;
+  color: #1c3c64;
+}
+
+/* As seen on 
+.as-seen h1 {
+  text-align: center;
+}
+
+.as-seen img {
+  align-items: center;
+  height: 100px;
+  width: 70px;
+  padding: 10px;
+}
+*/
+
+/* Application Insurance */
+
+.discovery {
+}
+
+.discovery .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.discovery .text h6 {
+  color: #74c344;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.discovery .text h2 {
+  color: #1c3c64;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.discovery .text p {
+  color: #1c3c64;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.discovery .text a {
+  background: #1c3c64;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.discovery .text a:hover {
+  background: #cde5c0;
+  color: #1c3c64;
+}
+
+/*Testimonials*/
+
+.testimonials {
+  margin: 0px;
+  padding: 0px;
+}
+
+.testimonials .col h6 {
+  color: #74c344;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.testimonials img {
+  margin-top: 50px;
+}
+
+.testimonials i {
+  font-size: 26px;
+  color: #74c344;
+}
+.testimonials p {
+  color: #1c3c64;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  font-style: italic;
+}
+.testimonials h3 {
+  color: #1c3c64;
+}
+.testimonials h5 {
+  color: #1c3c64;
+}
+.testimonials .card {
+  border-radius: 0px;
+  box-shadow: 5px 5px 15px #74c344;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+.testimonials .card:hover {
+  background: #74c344;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #cde5c0;
+}
+.testimonials h1 {
+  color: #1c3c64;
+}
+
+.testimonials .card:hover i,
+.testimonials .card:hover p,
+.testimonials .card:hover h3,
+.testimonials .card:hover h5 {
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background: #cde5c0 !important;
+  color: #1c3c64;
+}
+
+.footer-top {
+  padding: 40px 0;
+}
+
+.footer h2 {
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+.segment-two a {
+  background: #1c3c64;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.segment-two a i {
+  color: #cde5c0;
+  font-size: 20px;
+  padding: 10px 12px;
+}
